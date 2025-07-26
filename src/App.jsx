@@ -1,5 +1,6 @@
 import './App.css'
 import StockAnalyzer from './components/stock'
+import ChatWidget from './components/whatsapp'
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <StockAnalyzer />
+      <ChatWidget />
     </>
   )
 }

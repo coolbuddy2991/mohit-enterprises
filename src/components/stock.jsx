@@ -510,11 +510,7 @@ const CarpetShowcase = () => {
       </footer>
 
       {/* Floating Action Button */}
-      <div className="fixed bottom-8 right-8 z-50">
-        <button className="w-16 h-16 bg-gradient-to-r from-gold-400 to-amber-600 rounded-full shadow-2xl hover:shadow-gold-500/50 transition-all duration-300 transform hover:scale-110 flex items-center justify-center group">
-          <Phone className="w-8 h-8 text-black group-hover:animate-bounce" />
-        </button>
-      </div>
+      
 
       {/* Custom Styles */}
       <style jsx>{`
